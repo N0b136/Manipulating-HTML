@@ -1,5 +1,11 @@
 # README
 
+# Info
+- This lab asks you to perform various tasks, first using only the DOM, and then using only JQuery.
+- Your project folder should consist of 2 folders, DOM and JQuery, each containing an index.html, JS file, and any CSS files.
+- You should complete the tasks first in the DOM folder using only the DOM, and then complete the same tasks again in the JQuery folder using only JQuery.
+- Number each example in your html page to correspond with the objective numbers below.
+
 1. Make a button appear on the page when it's first loaded. The button cannot already be in your html. When the button is clicked, you should display an Alert box with any (nice) message.
 2. Make a button and text box (you can just put them in your HTML). When the button is clicked, display an alert with the message that is typed in the text box.
 3. Create a div in HTML. Without using CSS :hover, make the div change to a different background color when your mouse hovers over it. The div should return to its original color when the mouse exits the div.
