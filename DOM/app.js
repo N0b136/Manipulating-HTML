@@ -60,9 +60,16 @@ btn3.addEventListener('click', function() {
     emDiv.appendChild(name);
 });
 
-
-
-
-
+// Number 6
+let fnBtn = document.getElementById('add');
+let friends = ['Rae', 'Schuyler', 'Ethan', 'Thomas', 'Lauren','Jeremiah','Jon','Will','Rebecca','Boyo'];
+fnBtn.addEventListener('click', function() {
+    for (const f of friends) {
+        let friend = document.createTextNode(f);
+        let li = document.createElement('li');
+        li.appendChild(friend);
+        document.getElementById('ul').appendChild(li);
+    };
+});
 
 }); //END
