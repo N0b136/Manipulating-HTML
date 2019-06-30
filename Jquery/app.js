@@ -35,4 +35,12 @@ $(document).ready(function() {
     $('#nbtn').click(function(){
         $('#name').text('Ryan');
     });
+
+    //Number 6
+    let friends = ['Rae','Schuyler','Cole','Sonni','Thomas','Lauren','Jeremiah','Rebecca','Jon','Ajulu']
+    $('#add').click(function(){
+        for (const f of friends) {
+            $('#ul').append('<li>'+f+'</li>');
+        };
+    });
 });
