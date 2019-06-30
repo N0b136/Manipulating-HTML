@@ -35,6 +35,20 @@ colorDiv.addEventListener('mouseout', function() {
     colorDiv.style.backgroundColor = 'white';
 });
 
+// number 4
+let par = document.createElement('p');
+let someText = document.createTextNode('This is some Rad Text that changes color');
+par.appendChild(someText);
+document.getElementById('4').appendChild(par);
+
+par.addEventListener('click', function(){
+    let rand1 = Math.floor(Math.random()*255);
+    let rand2 = Math.floor(Math.random()*255);
+    let rand3 = Math.floor(Math.random()*255);
+    par.style.color = 'rgb('+rand1+','+rand2+','+rand3+')';
+});
+
+
 
 
 
