@@ -18,4 +18,10 @@ $(document).ready(function() {
     $('#colors').mouseout(function(){
         $(this).css('background-color','white');
     });
+
+    //Number 4
+    $('#4').append('<p>This changes color if you click on it</p>')
+    $('p:contains("This changes")').click(function(){
+        $(this).css('color','red');
+    });
 });
