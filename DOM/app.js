@@ -48,6 +48,17 @@ par.addEventListener('click', function(){
     par.style.color = 'rgb('+rand1+','+rand2+','+rand3+')';
 });
 
+// Number 5
+let btn3 = document.createElement('button');
+let btn3Text = document.createTextNode('NAME');
+btn3.appendChild(btn3Text);
+document.getElementById('5').appendChild(btn3);
+let emDiv = document.createElement('div');
+document.getElementById('5').appendChild(emDiv);
+btn3.addEventListener('click', function() {
+    let name = document.createTextNode('Ryan');
+    emDiv.appendChild(name);
+});
 
 
 
