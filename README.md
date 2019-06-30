@@ -1,6 +1,6 @@
 # README
 
-# Info
+Info
 - This lab asks you to perform various tasks, first using only the DOM, and then using only JQuery.
 - Your project folder should consist of 2 folders, DOM and JQuery, each containing an index.html, JS file, and any CSS files.
 - You should complete the tasks first in the DOM folder using only the DOM, and then complete the same tasks again in the JQuery folder using only JQuery.
