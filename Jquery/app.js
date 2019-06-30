@@ -22,6 +22,10 @@ $(document).ready(function() {
     //Number 4
     $('#4').append('<p>This changes color if you click on it</p>')
     $('p:contains("This changes")').click(function(){
-        $(this).css('color','red');
+        //$(this).css('color','red');
+        let rc1 = Math.floor(Math.random()*256);
+        let rc2 = Math.floor(Math.random()*256);
+        let rc3 = Math.floor(Math.random()*256);
+        $(this).css('color', 'rgb('+rc1+','+rc2+','+rc3+')');
     });
 });
