@@ -27,6 +27,13 @@ btn2.addEventListener('click', function() {
 
 // number 3
 
+let colorDiv = document.getElementById('colors');
+colorDiv.addEventListener('mouseover', function() {
+    colorDiv.style.backgroundColor = 'blue';
+});
+colorDiv.addEventListener('mouseout', function() {
+    colorDiv.style.backgroundColor = 'white';
+});
 
 
 
