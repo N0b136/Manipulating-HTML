@@ -12,4 +12,10 @@ $(document).ready(function() {
     });
 
     //Nmber 3
+    $('#colors').mouseover(function(){
+        $(this).css('background-color','blue');
+    });
+    $('#colors').mouseout(function(){
+        $(this).css('background-color','white');
+    });
 });
